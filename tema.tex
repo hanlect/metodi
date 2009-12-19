@@ -33,6 +33,35 @@
 
 
 
+\section{Algebra: gruppi e campi}
+
+sezione da scrivere palrando di gruppi, campi, totalmente ordinato, contabile ecc...
+
+
+
+\section{Insiemi e sequenze}
+%capitolo della cartella temp
+
+Possiamo cominciare a chiederci perchè per il nostro proposito di utilizzare il concetto di probabilità ci sia bisogno di conoscere la teoria della misura.
+Possiamo pensare ad una distribuzione uniforme sui sottoinsiemi dell'intervallo  [0,1], estendendo così il concetto di lunghezza, dato che possiamo definire la misura $P$ tale che
+
+\begin{itemize}
+\item $P([a,b)) = b-a \forall 0 \leq a \leq b \leq 1$
+\item $P(A_1 \cup A_2 \cup ...)=P(A_1)+P(A_2)+...$ per tutte le sequenze di insiemi disgiunti tali che $A_n \subset [0,1]$ and $n=1,2,...$
+% nella riga seguente ci dovrebbe essere un + cerchiato ma non trovo il simbolo adatto quindi uso \otriangle
+\item $P(A \otriangle r) = P(A)$ \forall r \in [0,1] dove per A \subset [0,1] abbiamo definito \otriangle come
+$$ A\otriangle r = { x \in [0,1] : x-r \in A \vee x-r+1 \in A } $$
+
+\end{itemize)
+
+Non potremo però trovare alcuna funzione P che rispetti quanto detto su tutti i possibili sottoinsiemi dell'intervallo [0,1], quindi ci dovremo concentrare un sottoclassi di insiemi dell'intervallo che chiameremo $\sigma$-algebra.
+
+Per esempio l'insieme dei numeri interi non è un campo dato che non è chiuso rispetto all'inverso del prodotto (ovvero la divisione), mentre lo è l'insieme dei razionali con relative operazioni di somma e prodotto.
+
+\section{Spazi misurabili}
+
+\section{Variabili casuali e funzioni di misura}
+
 
 
 \end{document}
